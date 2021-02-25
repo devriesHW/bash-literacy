@@ -4,6 +4,9 @@ Literacy in shell scripting will save countless hours of repetitive, mundane tas
 
 _Caveat lector_: Work in progress!
 
+### Description of scripts:
+- `submit_infinite_slurm.sh
+
 
 
 ### Handy bash one-liners (or: 'how do I do X?')
