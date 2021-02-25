@@ -8,7 +8,7 @@ _Caveat lector_: Work in progress!
 
 ### Handy bash one-liners (or: 'how do I do X?')
 
-- Replacing specific contents in a file using `sed`: `sed -i s/to_be_replaced/replacement/g' filename`
-- Quick and dirty one-line looping over directories: `for simdir in $(find $PWD -maxdepth 1 -type d); do cd $simdir ; ACTION ; cd .. ; done` . **Note**: _This will break for folders with spaces in their names. But what UNIX user does that anyway?_
+- Replacing specific contents in a file: `sed -i s/to_be_replaced/replacement/g' filename`
+- (Quick and dirty) one-line looping over directories: `for simdir in $(find $PWD -maxdepth 1 -type d); do cd $simdir ; ACTION ; cd .. ; done` . **Note**: _This will break for folders with spaces in their names. But what UNIX user does that anyway?_
 
 
