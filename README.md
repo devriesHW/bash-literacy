@@ -5,7 +5,7 @@ Literacy in shell scripting will save countless hours of repetitive, mundane tas
 _Caveat lector_: Work in progress!
 
 ### Description of scripts:
-- `submit_infinite_slurm.sh
+- `infinite_slurm_submission.sh` : example job submission script that conditionally resubmits runs automatically on supercomputers that use the `slurm` workload manager.
 
 
 
