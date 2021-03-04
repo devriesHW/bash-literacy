@@ -1,6 +1,6 @@
 # bash-literacy
 
-Literacy in shell scripting will save countless hours of repetitive, mundane tasks. Here I store example shell-scripts or handy bash one-liners (collected through _the interwebs_). Feel free to use to your advantage (and peril):
+Literacy in shell scripting will save countless hours of repetitive, mundane tasks. Here I store shell-scripts or handy bash one-liners based on what I often use myself. Feel free to use to your advantage (and peril):
 
 _Caveat lector_: Work in progress!
 
