@@ -21,7 +21,7 @@ _Caveat lector_: Work in progress!
   - It is convenient to line up a `grep` and `awk` call using a pipe: ` grep 'pattern' <filename> | awk '{print $N}'`
   - Format specs are allowed: `awk '{fprint("%5s,%3s\n",$N1,$N2)}'` where `N1,N2` are formatted with a certain number of places. Don't forget newlines (`\n`).
 - Check the working directory of a specific JobID within `slurm` workload managers:
-  - `scontrol show <jobID> | grep Workdir`
+  - `scontrol show job <jobID> | grep Workdir`
 
 
 
