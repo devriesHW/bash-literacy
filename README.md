@@ -22,6 +22,8 @@ _Caveat lector_: Work in progress!
   - Format specs are allowed: `awk '{fprint("%5s,%3s\n",$N1,$N2)}'` where `N1,N2` are formatted with a certain number of places. Don't forget newlines (`\n`).
 - Check the working directory of a specific JobID within `slurm` workload managers:
   - `scontrol show job <jobID> | grep Workdir`
+- Syncing only a specific pattern or extension using `rsync` while preserving directory structure
+  - `rsync -ruav --include='*.extension' --include='*/' --exclude='*' source destination`
 
 
 
