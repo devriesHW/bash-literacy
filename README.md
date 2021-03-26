@@ -24,6 +24,7 @@ _Caveat lector_: Work in progress!
   - `scontrol show job <jobID> | grep Workdir`
 - Syncing only a specific pattern or extension using `rsync` while preserving directory structure
   - `rsync -ruav --include='*.extension' --include='*/' --exclude='*' source destination`
-
+- Converting all `.ppm`- files to a different format using *imagemagick*: 
+  - `for ff in *.ppm ; do convert -density 1000 $ff ${ff%.*}.ppm ; done`
 
 
