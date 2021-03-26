@@ -25,6 +25,6 @@ _Caveat lector_: Work in progress!
 - Syncing only a specific pattern or extension using `rsync` while preserving directory structure
   - `rsync -ruav --include='*.extension' --include='*/' --exclude='*' source destination`
 - Converting all `.ppm`- files to a different format using *imagemagick*: 
-  - `for ff in *.ppm ; do convert -density 1000 $ff ${ff%.*}.ppm ; done`
+  - `for ff in *.ppm ; do convert -density 1000 $ff ${ff%.*}.png ; done`
 
 
