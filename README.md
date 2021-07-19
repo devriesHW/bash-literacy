@@ -27,5 +27,7 @@ _Caveat lector_: Work in progress!
   - `rsync -ruav --include='*.extension' --include='*/' --exclude='*' source destination`
 - Converting all `.ppm`- files to a different format using *imagemagick*: 
   - `for ff in *.ppm ; do convert -density 1000 $ff ${ff%.*}.png ; done`
+- `rsync`-ing data to the Cartesius cluster at SURFSARA/NWO while applying proper group permissions
+  - `rsync -a --no-g --chmod=Dg+s,g+w [source] [destination]`
 
 
