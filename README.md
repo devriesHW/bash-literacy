@@ -30,6 +30,6 @@ _Caveat lector_: Work in progress!
 - **`rsync`-ing data while applying proper group permissions**
   - `rsync -a --no-g --chmod=Dg+s,g+w [source] [destination]`
 - **Solving a failed `git push` due to a large file (over 25MB):**
-  - `git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch <relative/path/to/large/file>' --prune-empty --tag-name-filter cat -- --all
+  - `git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch <relative/path/to/large/file>' --prune-empty --tag-name-filter cat -- --all`
 
 
